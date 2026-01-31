@@ -15,5 +15,10 @@ def process_data(data):
 import os
 import sys
 
+# Additional test code for synchronize event
+def test_empty_output():
+    """Test case to trigger synchronize event"""
+    pass
+
 if __name__ == "__main__":
     print(calculate_sum(1, 2))
